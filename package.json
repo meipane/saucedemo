@@ -1,0 +1,19 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "Saucedemo Automation Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "author": "Mei Pane",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
